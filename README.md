@@ -8,4 +8,4 @@
 6) `git revert "update" ` wil remove the last commit.
 7) `git stash save coolstuff` to save changes without commiting but to use them again use `git stash list` to find it and use `git stash apply i` where `i` is the index of the change in the list.
 8) `git commit --fixup commitId` and `git commit --squash commitId` will save all the commits into a single commit or we can use `git rebase -i autosquash`.
-9) 
+9) `git merge --abort` or `git rebase --abort` will undo the merge and rebase respectively.
