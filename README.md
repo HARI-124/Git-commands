@@ -1,6 +1,6 @@
 ### Useful git commands
 
-1) `git commit -am "first commit"` this will add to the staging area and commits the code
+1) `git commit -am "first commit"` this will add to the staging area and commits the code. But this can't be used if new file is added.
 2) To create alias in git use `git config --global alias.ac "commit -am"` in the ac is the alias for  commit -am so to use it `git ac 'noice'` will add and commit the code.
 3) `git commit --amend -m "nice"` this command will update the recent commit with the desired commit name.
 4) To add the new changes to the last commit itself use `git commit --amend --no-edit` followed by `git add .`.
